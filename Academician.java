@@ -1,4 +1,5 @@
 class Academician {
+    private static final String subject = null;
     String name; /*field*/
     String age;/*field*/
 
