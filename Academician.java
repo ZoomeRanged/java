@@ -1,5 +1,5 @@
 class Academician {
-    private static final String subject = null;
+    protected final String subject = null;
     String name; /*field*/
     String age;/*field*/
 
@@ -11,7 +11,7 @@ class Academician {
 
 /*method studentSubject*/ 
     void studentSubject(String subject) {
-        System.out.println("Hello " + name + "my age is" + age + ", My subject is " + this.subject);
+        System.out.println("Hello my name is " + name + " my age is " + age + ", My subject is " + subject);
         }
         
 }

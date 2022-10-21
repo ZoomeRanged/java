@@ -4,7 +4,7 @@ public class StudentApp{
 
 
 
-        Student student = new Student("Aldo", "30");
+        Student student = new Student("Aldo ", " 30");
 
         student.studentSubject("Matematika");
         
